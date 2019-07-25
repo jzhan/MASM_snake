@@ -23,7 +23,6 @@ gotoxy PROTO
 	BORDER_WIDTH EQU 50
 	dw_length DWORD start_length
 	dw_pos DWORD start_length dup (0) ;yyyyxxxx
-	current_position DWORD 0
 	WND_handle DWORD ?
 	
 	;1 left
